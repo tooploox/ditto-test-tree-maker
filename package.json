@@ -1,0 +1,16 @@
+{
+  "name": "ditto",
+  "version": "1.0.0",
+  "description": "ditto test tree make for Cypress and more",
+  "main": "ditto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AJ",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^7.1.6",
+    "lodash": "^4.17.20"
+  },
+  "dependencies": {}
+}

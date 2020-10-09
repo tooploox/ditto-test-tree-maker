@@ -1,0 +1,12 @@
+# MacOs stuff
+.DS_Store
+
+# User
+.vscode/
+.idea/
+
+# node
+node_modules
+
+# output
+testTree.txt
