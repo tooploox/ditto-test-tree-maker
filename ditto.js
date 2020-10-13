@@ -34,7 +34,7 @@ const createTreeForTestFile = (file, stream) => fs.readFile(__dirname + '/' + fi
     let allMatches = []
     const types = ['describe', 'context', 'it'];
     types.forEach(type => {
-        const re = new RegExp(`(?<=${type}\\(["\`']).*?(?=",|',|\`,)`, 'g');
+        const re = new RegExp(`(?<=${type}\\(["\`']).*?(?=["'\`],)`, 'g');
         let matches = [...data.matchAll(re)];
         matches.forEach((match) => {
             allMatches.push({value: match[0], index: match.index, type})
